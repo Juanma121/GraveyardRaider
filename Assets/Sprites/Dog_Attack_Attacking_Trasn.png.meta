@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: ad8e70658a930aa42ac138e97629d54c
+timeCreated: 1514214160
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dog_Attack_Attacking_Trasn_0
+    21300002: Dog_Attack_Attacking_Trasn_1
+    21300004: Dog_Attack_Attacking_Trasn_2
+    21300006: Dog_Attack_Attacking_Trasn_3
+    21300008: Dog_Attack_Attacking_Trasn_4
+    21300010: Dog_Attack_Attacking_Trasn_5
+    21300012: Dog_Attack_Attacking_Trasn_6
+    21300014: Dog_Attack_Attacking_Trasn_7
+    21300016: Dog_Attack_Attacking_Trasn_8
+    21300018: Dog_Attack_Attacking_Trasn_9
+    21300020: Dog_Attack_Attacking_Trasn_10
+    21300022: Dog_Attack_Attacking_Trasn_11
+    21300024: Dog_Attack_Attacking_Trasn_12
+    21300026: Dog_Attack_Attacking_Trasn_13
+    21300028: Dog_Attack_Attacking_Trasn_14
+    21300030: Dog_Attack_Attacking_Trasn_15
+    21300032: Dog_Attack_Attacking_Trasn_16
+    21300034: Dog_Attack_Attacking_Trasn_17
+    21300036: Dog_Attack_Attacking_Trasn_18
+    21300038: Dog_Attack_Attacking_Trasn_19
+    21300040: Dog_Attack_Attacking_Trasn_20
+    21300042: Dog_Attack_Attacking_Trasn_21
+    21300044: Dog_Attack_Attacking_Trasn_22
+    21300046: Dog_Attack_Attacking_Trasn_23
+    21300048: Dog_Attack_Attacking_Trasn_24
+    21300050: Dog_Attack_Attacking_Trasn_25
+    21300052: Dog_Attack_Attacking_Trasn_26
+    21300054: Dog_Attack_Attacking_Trasn_27
+    21300056: Dog_Attack_Attacking_Trasn_28
+    21300058: Dog_Attack_Attacking_Trasn_29
+    21300060: Dog_Attack_Attacking_Trasn_30
+    21300062: Dog_Attack_Attacking_Trasn_31
+    21300064: Dog_Attack_Attacking_Trasn_32
+    21300066: Dog_Attack_Attacking_Trasn_33
+    21300068: Dog_Attack_Attacking_Trasn_34
+    21300070: Dog_Attack_Attacking_Trasn_35
+    21300072: Dog_Attack_Attacking_Trasn_36
+    21300074: Dog_Attack_Attacking_Trasn_37
+    21300076: Dog_Attack_Attacking_Trasn_38
+    21300078: Dog_Attack_Attacking_Trasn_39
+    21300080: Dog_Attack_Attacking_Trasn_40
+    21300082: Dog_Attack_Attacking_Trasn_41
+    21300084: Dog_Attack_Attacking_Trasn_42
+    21300086: Dog_Attack_Attacking_Trasn_43
+    21300088: Dog_Attack_Attacking_Trasn_44
+    21300090: Dog_Attack_Attacking_Trasn_45
+    21300092: Dog_Attack_Attacking_Trasn_46
+    21300094: Dog_Attack_Attacking_Trasn_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 33
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 455
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 456
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 456
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 456
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 456
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 456
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 391
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 391
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 391
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 391
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 391
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 391
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 326
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 326
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 326
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 326
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 326
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 326
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 261
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 261
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 261
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_21
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 261
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 261
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 261
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 196
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_26
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 196
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_27
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 196
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_28
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 196
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_29
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 196
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 131
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 131
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_32
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 131
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 131
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_34
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 131
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 131
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 66
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 66
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 66
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_41
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 66
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_43
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_44
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_46
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dog_Attack_Attacking_Trasn_47
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
