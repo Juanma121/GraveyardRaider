@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4076465237886584}
   - component: {fileID: 212128137214614758}
   - component: {fileID: 70354480769156356}
+  - component: {fileID: 114166640633762944}
   m_Layer: 0
   m_Name: arbol1
   m_TagString: Untagged
@@ -121,6 +122,7 @@ GameObject:
   - component: {fileID: 4584066397614456}
   - component: {fileID: 212250046863077850}
   - component: {fileID: 70282355631609940}
+  - component: {fileID: 114465490863870864}
   m_Layer: 0
   m_Name: arbol2
   m_TagString: Untagged
@@ -775,7 +777,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.046621323, y: -1.898962}
+  m_Offset: {x: 0, y: 0.4}
   m_Size: {x: 0.8384514, y: 0.8384514}
   m_Direction: 0
 --- !u!70 &70325391778427244
@@ -805,7 +807,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.13415432, y: -1.894557}
+  m_Offset: {x: -0, y: 0.4}
   m_Size: {x: 0.763319, y: 0.83649445}
   m_Direction: 0
 --- !u!70 &70601865709049162
@@ -851,6 +853,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1874989c5e2da094ea00112c6a895694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114166640633762944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1030631557958298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416301f7ecb04e645bf7cc553324d745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixEveryFrame: 0
+--- !u!114 &114465490863870864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247327123782232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416301f7ecb04e645bf7cc553324d745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixEveryFrame: 0
 --- !u!114 &114675913029334090
 MonoBehaviour:
   m_ObjectHideFlags: 1

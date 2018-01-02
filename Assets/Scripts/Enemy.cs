@@ -94,15 +94,20 @@ public class Enemy : MonoBehaviour {
 
 		//Si es el jugador y esta en rango de ataque nos paramos y le atacamos
 		if(target != initialPosition && distance - 0.1 < attackRadius && hp > 0){
-			//Aqui le atacariamos, pero por ahora simplemente cambiamos la animacion
+			
+			//Indicamos la direccion en la que tiene que mirar
 			anim.SetFloat("movX", dir.x);
 			anim.SetFloat ("movY", dir.y);
-			anim.Play ("Enemy_Walk", -1, 0); //Congela la animacion de andar
+
+			//Paramos la animacion de andar
+			anim.SetBool("walking", false);
+			rb2d.MovePosition(transform.position + dir * 0 * Time.deltaTime); 
+			//anim.Play ("Enemy_Walk", -1, 0); //Congela la animacion de andar
 
 			//Emepezamos a atacar (importante una layer en ataque para evitar Raycast)
 			if (!attacking)
 				StartCoroutine (Attack(attackSpeed, dir));
-			
+						
 		}else if(hp > 0){
 			//En caso contrario nos movemos hacia el
 			rb2d.MovePosition(transform.position + dir * speed * Time.deltaTime);
@@ -139,7 +144,8 @@ public class Enemy : MonoBehaviour {
 			anim.Play("Enemy_Idle");
 
 			anim.SetBool("dies",true);
-			yield return new WaitForSeconds (anim.GetCurrentAnimatorStateInfo(0).length + anim.GetCurrentAnimatorStateInfo(0).normalizedTime - 0.1f);
+			//yield return new WaitForSeconds (anim.GetCurrentAnimatorStateInfo(0).length + anim.GetCurrentAnimatorStateInfo(0).normalizedTime - 0.1f);
+			yield return new WaitForSeconds (35 * Time.deltaTime);
 			Destroy (gameObject);
 
 			/*gameObject.GetComponent<Renderer>().enabled = false;
@@ -154,36 +160,37 @@ public class Enemy : MonoBehaviour {
 	}
 
 	IEnumerator Attack(float seconds, Vector3 movimiento){
+		
 		yield return new WaitForSeconds (seconds); //Espera unos segundos
 
-		bool attacking = true;
+			bool attacking = true;
 
-		// vector para el ataque
-		mov = new Vector2 (movimiento.x, movimiento.y);
+			// vector para el ataque
+			mov = new Vector2 (movimiento.x, movimiento.y);
 
-		AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo (0);
-		attacking = stateInfo.IsName ("Enemy_Attack");
-
-
-		anim.SetTrigger("attacking");
-		Debug.Log("ataque enemigo");
+			AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo (0);
+			attacking = stateInfo.IsName ("Enemy_Attack");
 
 
-		//Vamos actualizando la posición de la colision de ataque
-		if (mov != Vector2.zero)
-			attackCollider.offset = new Vector2 (mov.x/2, mov.y/2);
+			anim.SetTrigger ("attacking");
+			Debug.Log ("ataque enemigo");
 
-		//Activamos el collider del ataque a mitad de animacion
 
-		float playbackTime = stateInfo.normalizedTime; //guardamos el tiempo que dura la animacion
+			//Vamos actualizando la posición de la colision de ataque
+			if (mov != Vector2.zero)
+				attackCollider.offset = new Vector2 (mov.x / 2, mov.y / 2);
+
+			//Activamos el collider del ataque a mitad de animacion
+
+			float playbackTime = stateInfo.normalizedTime; //guardamos el tiempo que dura la animacion
 			//print(playbackTime);
-		if (playbackTime > 0.33 && playbackTime < 0.66) {
-			attackCollider.enabled = true;
-		} else {
-			attackCollider.enabled = false;
+			if (playbackTime > 0.33 && playbackTime < 0.66) {
+				attackCollider.enabled = true;
+			} else {
+				attackCollider.enabled = false;
+			}
+
+			attacking = false;
 		}
 
-		attacking = false;
-	}
-		
 }

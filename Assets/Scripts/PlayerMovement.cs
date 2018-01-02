@@ -7,6 +7,10 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float speed = 4f;
 
+	//Variables realacionadas con la vida del enemigo
+	public int maxHp =1;
+	public int hp=1;
+
 	Animator anim;
 	Rigidbody2D rb2d;
 	Vector2 mov;
@@ -87,5 +91,18 @@ public class PlayerMovement : MonoBehaviour {
 
 	void setInitialMap(GameObject map){
 		initialMap = map;
+	}
+
+	public IEnumerator Attacked(){
+		if (--hp <= 0) { // Le restamos 1 vida al jugador y a la vez comprobamos la condicion
+
+			anim.Play ("Player_Idle");
+
+			anim.SetBool ("dies", true);
+			//yield return new WaitForSeconds (anim.GetCurrentAnimatorStateInfo(0).length + anim.GetCurrentAnimatorStateInfo(0).normalizedTime - 0.1f);
+			yield return new WaitForSeconds (70 * Time.deltaTime);
+			//desabilitamos el movimiento
+			this.enabled = false;
+		}
 	}
 }

@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4764408594060774}
   - component: {fileID: 58373623080904042}
+  - component: {fileID: 114956810194193548}
   m_Layer: 8
   m_Name: ZAttack
   m_TagString: Untagged
@@ -169,6 +170,7 @@ MonoBehaviour:
   maxHp: 1
   hp: 1
   zombieSPrefab: {fileID: 1625590271518958}
+  attackSpeed: 0
 --- !u!114 &114629692872424138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,6 +183,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fixEveryFrame: 1
+--- !u!114 &114956810194193548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844665042184218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cf7b4a692346d4e93b3395f2840edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212412609862203536
 SpriteRenderer:
   m_ObjectHideFlags: 1
